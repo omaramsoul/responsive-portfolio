@@ -496,6 +496,58 @@ img {
   background-color: var(--first-color-lighter);
 }
 
+.skills__angular{
+  width: 60%;
+}
+
+.skills__html{
+  width: 90%;
+}
+
+.skills__js{
+  width: 70%;
+}
+
+.skills__ts{
+  width: 70%;
+}
+
+.skills__css{
+  width: 80%;
+}
+
+.skills__java{
+  width: 70%;
+}
+
+.skills__c{
+  width: 60%;
+}
+
+.skills__node{
+  width: 50%;
+}
+
+.skills__figma{
+  width: 90%;
+}
+
+.skills__adobe{
+  width: 80%;
+}
+
+.skills__gitlab{
+  width: 70%;
+}
+
+.skills__docker{
+  width: 70%;
+}
+
+.skills__aws{
+  width: 50%;
+}
+
 .skills__percentage{
   display: block;
   background-color: var(--first-color);
