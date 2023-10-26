@@ -7,10 +7,10 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 1; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color: hsl(var(--hue-color), 90%, 60%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -188,12 +188,13 @@ img {
 }
 
 .nav__logo{
+  color: var(--first-color);
   font-size: var(--font-semi-bold);
   font-weight: 800;
 }
 
 .nav__logo:hover{
-  color: var(--first-color);
+  color: var(--first-color-lighter);
 }
 
 .nav__toggle{
